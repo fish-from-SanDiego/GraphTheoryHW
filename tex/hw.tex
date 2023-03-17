@@ -1,0 +1,55 @@
+\documentclass{article}
+
+
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{tipa}
+\usepackage{mathtools}
+\graphicspath{{./}}
+
+
+
+\hypersetup{
+	colorlinks=true,
+	urlcolor=blue
+}
+
+\usepackage[margin=0.7in]{geometry}
+\linespread{1.25}
+
+\title{\fontfamily{bch}\selectfont\Huge Graph Theory Homework v1}
+\author{\Large Petrov Maksim M3100}
+\date{\Large \today}
+
+
+\begin{document}
+	\fontsize{14pt}{16pt}\selectfont
+	\maketitle
+	
+	\section*{Tools and source files}
+	Some problems were solved using \href{https://www.minizinc.org/software.html}{MiniZinc Software}. \href{https://www.minizinc.org/doc-2.7.0/en/index.html}{The MiniZinc Handbook} contains detailed instructions on how to run .mnz models and use .dzn data files. In this homework, some models use an adjacency matrix (g.dzn), other models use a list of edges (edges.dzn), others use a list of edges and the number of vertices (edges and v num.dzn). \\\\
+	Some of the calculations were done (and the source code for graphviz was obtained) using console C++ applications built with a help of CMake. As the .exe file is located at {\textless}src folder{\textgreater}/Build/Debug, all input and output .txt files in the code begin with '../../' as it's convenient to work with them in the src folder just in IDE.\\\\
+	To visualise the graphs, \url{https://dreampuf.github.io/GraphvizOnline/} was used (all graphs visualized using fdp engine).\\\\
+	All source files
+	\section*{Task 1}
+	
+	% Add text, formulas, and images
+	This is an example of a \LaTeX\  document that includes text, mathematical formulas, and images. Here is an example formula:
+	
+	And here is an example image:
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.5\textwidth]{example-image.png}
+		\caption{An example PNG image}
+		\label{fig:example-image}
+	\end{figure}
+	
+	You can also include URLs using the \texttt{url} package:
+	
+	\href{https://www.example.com}{Click on me}
+	
+	% End the document
+\end{document}

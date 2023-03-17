@@ -1,0 +1,100 @@
+
+
+graph G {
+    node [overlap = false,style=filled, shape = circle, fixedsize =true, height = 0.5,
+    fontsize = 10];
+"1(AL)"
+"27(ME)"
+"20(XK)"
+"29(MK)"
+"17(GR)"
+"2(AD)"
+"14(FR)"
+"39(ES)"
+"3(AM)"
+"42(TR)"
+"15(GE)"
+"4(AT)"
+"10(CZ)"
+"37(SK)"
+"18(HU)"
+"38(SI)"
+"19(IT)"
+"41(CH)"
+"22(LI)"
+"16(DE)"
+"5(BY)"
+"21(LV)"
+"23(LT)"
+"31(PL)"
+"34(RU)"
+"43(UA)"
+"6(BE)"
+"28(NL)"
+"24(LU)"
+"7(BA)"
+"9(HR)"
+"36(RS)"
+"8(BG)"
+"33(RO)"
+"11(DK)"
+"12(EE)"
+"13(FI)"
+"30(NO)"
+"40(SE)"
+"26(MC)"
+"44(VA)"
+"35(SM)"
+"25(MD)"
+"32(PT)"
+
+
+"1(AL)" -- "27(ME)"[label = 178]
+"2(AD)" -- "14(FR)"[label = 838]
+"2(AD)" -- "39(ES)"[label = 575]
+"3(AM)" -- "42(TR)"[label = 283]
+"3(AM)" -- "15(GE)"[label = 219]
+"4(AT)" -- "10(CZ)"[label = 252]
+"4(AT)" -- "37(SK)"[label = 63]
+"4(AT)" -- "38(SI)"[label = 238]
+"5(BY)" -- "23(LT)"[label = 177]
+"5(BY)" -- "34(RU)"[label = 634]
+"6(BE)" -- "28(NL)"[label = 158]
+"6(BE)" -- "14(FR)"[label = 263]
+"6(BE)" -- "24(LU)"[label = 184]
+"7(BA)" -- "36(RS)"[label = 261]
+"7(BA)" -- "27(ME)"[label = 156]
+"8(BG)" -- "33(RO)"[label = 389]
+"8(BG)" -- "29(MK)"[label = 238]
+"8(BG)" -- "42(TR)"[label = 443]
+"9(HR)" -- "38(SI)"[label = 132]
+"10(CZ)" -- "16(DE)"[label = 280]
+"11(DK)" -- "16(DE)"[label = 356]
+"12(EE)" -- "21(LV)"[label = 213]
+"13(FI)" -- "34(RU)"[label = 729]
+"13(FI)" -- "40(SE)"[label = 397]
+"14(FR)" -- "41(CH)"[label = 424]
+"14(FR)" -- "26(MC)"[label = 718]
+"16(DE)" -- "24(LU)"[label = 431]
+"17(GR)" -- "29(MK)"[label = 466]
+"18(HU)" -- "36(RS)"[label = 322]
+"18(HU)" -- "37(SK)"[label = 168]
+"19(IT)" -- "38(SI)"[label = 509]
+"19(IT)" -- "44(VA)"[label = 4]
+"19(IT)" -- "35(SM)"[label = 235]
+"20(XK)" -- "29(MK)"[label = 75]
+"20(XK)" -- "27(ME)"[label = 111]
+"21(LV)" -- "23(LT)"[label = 211]
+"22(LI)" -- "41(CH)"[label = 118]
+"23(LT)" -- "31(PL)"[label = 266]
+"25(MD)" -- "33(RO)"[label = 163]
+"25(MD)" -- "43(UA)"[label = 347]
+"30(NO)" -- "40(SE)"[label = 314]
+"31(PL)" -- "37(SK)"[label = 484]
+"32(PT)" -- "39(ES)"[label = 506]
+
+
+
+
+"27(ME)"[pos="1,-1.101324"]
+}
