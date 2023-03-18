@@ -229,5 +229,16 @@ int main(int, char**) {
             fout << "\n";
         }
     }
+    fout.close();
+    fout.open("../../even.txt");
+    for (size_t i = 0; i < order.size(); i++) {
+        int v = order[i];
+        fout << "\"" << v << "(" << codes[v] << ")\"";
+        if (adjl[v].size() % 2 == 0) {
+            fout << "[color = \"cyan\"]";
+        }
+        fout << "\n";
+    }
+
     return 0;
 }
